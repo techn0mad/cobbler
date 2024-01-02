@@ -226,8 +226,6 @@ class Profile(item.Item):
         self._autoinstall_meta = enums.VALUE_INHERITED
         self._kernel_options = enums.VALUE_INHERITED
         self._kernel_options_post = enums.VALUE_INHERITED
-        self._mgmt_classes = enums.VALUE_INHERITED
-        self._mgmt_parameters = enums.VALUE_INHERITED
 
         if self._is_subobject:
             self._filename = enums.VALUE_INHERITED

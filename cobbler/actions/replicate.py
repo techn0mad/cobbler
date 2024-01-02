@@ -26,9 +26,6 @@ OBJ_TYPES = [
     "system",
     "repo",
     "image",
-    "mgmtclass",
-    "package",
-    "file",
 ]
 
 
@@ -60,9 +57,6 @@ class Replicate:
             "system": {},
             "image": {},
             "repo": {},
-            "mgmtclass": {},
-            "package": {},
-            "file": {},
         }
         self.port = ""
         self.distro_patterns: List[str] = []
